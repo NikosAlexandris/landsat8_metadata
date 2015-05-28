@@ -1,3 +1,5 @@
+# Under development
+
 A python class for retrieving Landsat8 metadata from an MTL file and returning
 spectral conversion related expressions for GRASS GIS' `r.mapcalc` raster
 processing module.
