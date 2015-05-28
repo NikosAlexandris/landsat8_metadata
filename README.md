@@ -4,6 +4,8 @@ processing module.
 
 # To Do:
 
+- Explain the use of (global?) DUMMY strings
+
 - Implement toar_reflectance
 
 - Implement mechanism to translate QA pixel values to QA bits, and vice versa?
