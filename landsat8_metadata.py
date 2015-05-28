@@ -164,11 +164,8 @@ class Landsat8():
         """
         multiplicative_factor = getattr(self.mtl, ('RADIANCE_MULT_BAND_' +
                                         str(bandnumber)))
-        # print "ML:", multiplicative_factor
-
         additive_factor = getattr(self.mtl, 'RADIANCE_ADD_BAND_' +
                                   str(bandnumber))
-        # print "AL:", additive_factor
 
         formula = '{ML}*{DUMMY_DN} + {AL}'
         mapcalc = formula.format(ML=multiplicative_factor,
